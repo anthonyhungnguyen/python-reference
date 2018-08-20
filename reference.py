@@ -61,6 +61,7 @@ type(None)      # returns 'NoneType'
 # check if an object is of a given type
 isinstance(2.0, int)            # returns False
 isinstance(2.0, (int, float))   # returns True
+is_integer()
 
 # convert an object to a given type
 float(2)
